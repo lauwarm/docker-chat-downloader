@@ -16,7 +16,7 @@ docker run -v /path/to/download/:/home/download/ -e channelURL='https://www.twit
 
 ### Usage
 
-`/home/download` - the place where the vods will be saved. Mount it to a desired place with -v option.
+`/home/download` - the place where the file will be saved. Mount it to a desired place with -v option.
 
 `channelURL` - the url of the stream you want to record.
 
