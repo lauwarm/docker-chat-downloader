@@ -22,11 +22,13 @@ docker run -v /path/to/download/:/home/download/ -e channelURL='https://www.twit
 
 `channelName` - the name for the stream.
 
+`fileFormat` - file extension to be used.
+
 `uid` - UserID, map to your desired User ID (fallback to 9001)
 
 `gid` - GroupID, map to your desired Group ID (fallback to 9001)
 
-The File will be saved as `streamName-YearMonthDate-HourMinuteSecond.json`
+The File will be saved as `streamName-YearMonthDate-HourMinuteSecond.ext`
 
 ## Issues and Contributions
 
